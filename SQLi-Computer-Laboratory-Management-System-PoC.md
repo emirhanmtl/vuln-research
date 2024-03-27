@@ -6,7 +6,7 @@
 # Software Link
 + https://www.sourcecodester.com/php/17268/computer-laboratory-management-system-using-php-and-mysql.html
 # Overview
-+ PHPGurukul Restaurant Table Booking System 1.0 is susceptible to a significant security vulnerability that arises from insufficient protection on the 'username' parameter in the 'rtbs/admin/index.php' file.  This flaw can potentially be exploited to inject malicious SQL queries, leading to unauthorized access and extraction of sensitive information from the database.
++ A SQL Injection vulnerability in Computer Laboratory Management System allows attackers to execute arbitrary SQL commands on the database server and exfiltrate sensitive data.
 # Vulnerability Details
 + Vulnerable Endpoint: /php-lms/admin/category/view_category.php?id=1
 + Parameter: id
