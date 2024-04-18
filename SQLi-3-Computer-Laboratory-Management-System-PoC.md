@@ -6,7 +6,7 @@
 # Software Link
 + https://www.sourcecodester.com/php/17268/computer-laboratory-management-system-using-php-and-mysql.html
 # Overview
-+ A SQL Injection vulnerability in Computer Laboratory Management System allows attackers to execute arbitrary SQL commands on the database server and exfiltrate sensitive data.
++ A SQL Injection vulnerability in Computer Laboratory Management System v1.0 allows attackers to execute arbitrary SQL commands on the database server and exfiltrate sensitive data.
 # Vulnerability Details
 + CVE ID: CVE-2024-31547
 + Vulnerable Endpoint: /php-lms/admin/item/view_item.php?id=1
